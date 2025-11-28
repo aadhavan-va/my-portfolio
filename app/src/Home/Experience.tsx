@@ -65,7 +65,7 @@ const Experience = () => {
                             <path fill="#FFA800" d="M36,44.7c7.4-4.2,11.9-12.1,11.9-20.7V6c0-1.1-0.3-2.1-0.8-3.1L36,44.7z" />
                         </g>
                     </svg>
-                    <div className="flex items-center justify-between w-full mb-3">
+                    <div className="flex items-center justify-between w-full ">
                         <div className="flex flex-col">
                             <p className="text-[15px] md:text-[16px] xl:text-lg font-medium">Freshworks</p>
                             <p className="text-xs">Frontend Engineer</p>
