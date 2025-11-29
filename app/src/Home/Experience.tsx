@@ -3,7 +3,7 @@ import Image from "next/image"
 const Experience = () => {
     return (
         <div>
-            <p className="text-xl font-semibold mb-3">experience</p>
+            <p className="text-xl font-semibold mb-3">Experience</p>
             <section className="flex flex-col gap-y-2">
                 <div className="border flex gap-x-4 p-2 lg:p-3 rounded-2xl hover:bg-[#E4E4E5] transition-all duration-500">
                     <svg width="46" height="46" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">

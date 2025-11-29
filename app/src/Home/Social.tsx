@@ -4,7 +4,7 @@ import Image from "next/image"
 const Social = () => {
     return (
         <div>
-            <p className="text-xl font-semibold">socials</p>
+            <p className="text-xl font-semibold">Socials</p>
             <div className="flex mt-3 gap-x-2">
                 <Link href="https://x.com/Aadhavan_va" target="_blank" className="p-1 rounded-lg flex items-center w-fit hover:scale-110 transition-all bg-[#0a0a0a] duration-300 ">
                     <Image

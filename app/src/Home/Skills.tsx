@@ -3,7 +3,7 @@
 const Skills = () => {
     return (
         <div className="">
-            <p className="text-xl font-semibold mb-3">skills</p>
+            <p className="text-xl font-semibold mb-3">Skills</p>
 
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
