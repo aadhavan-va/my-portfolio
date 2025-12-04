@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Karla } from "next/font/google";
 import "./globals.css";
-import Navbar from "./src/Home/Navbar";
+import Navbar from "./src/Common/Navbar";
+import Footer from "./src/Common/Footer";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
