@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="pointer-events-none fixed inset-x-0 bottom-6 z-50 flex justify-center">
+        <footer className="pointer-events-none fixed inset-x-0 bottom-2.5 md:bottom-6 z-50 flex justify-center">
             <div className="pointer-events-auto relative">
                 {/* Glow behind the bubble */}
-                <div className="absolute inset-0 -z-10  bg-gradient-to-r from-cyan-500/40 via-sky-500/40 to-indigo-500/40 blur-2xl opacity-70 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="absolute inset-0 -z-10  bg-linear-to-r from-cyan-500/40 via-sky-500/40 to-indigo-500/40 blur-2xl opacity-70 transition-opacity duration-500 group-hover:opacity-100" />
 
                 <nav
                     className="
