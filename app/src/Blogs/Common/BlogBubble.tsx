@@ -18,7 +18,7 @@ export function BlogBubble({ title, date, href, prefix }: BlogBubbleProps) {
             target="_blank"
             rel="noreferrer"
             className="
-        group relative flex items-center justify-between gap-6
+        group relative flex md:items-center justify-between gap-1 flex-col md:flex-row md:gap-6
         rounded-xl border border-white/20
         bg-white/5
         px-6 py-4
@@ -62,7 +62,7 @@ export function BlogBubble({ title, date, href, prefix }: BlogBubbleProps) {
 
                 <p
                     className="
-            truncate text-[0.93rem] font-medium
+            md:truncate text-[0.93rem] font-medium
             tracking-tight text-slate-100
           "
                 >
