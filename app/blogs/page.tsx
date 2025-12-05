@@ -1,7 +1,7 @@
 import { BlogBubble } from "../src/Blogs/Common/BlogBubble"
 
 const Blogs = () => {
-    return <section className="h-screen mt-28 w-full">
+    return <section className="mt-28 w-full">
         <h4 className="font-semibold text-xl mb-3">Technical Blogs</h4>
 
 
