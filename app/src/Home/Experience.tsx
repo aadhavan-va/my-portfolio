@@ -44,7 +44,7 @@ const Experience = () => {
                     <div className="flex items-center justify-between w-full">
                         <div className="flex flex-col">
                             <p className="text-[15px] md:text-[16px] xl:text-lg font-medium">ZEPIC</p>
-                            <p className="text-xs">Senior Frontend Engineer</p>
+                            <p className="text-xs">Founding Engineer - Fullstack</p>
                         </div>
                         <p className="text-sm">May 2023 - Feb 2026</p>
                     </div>
