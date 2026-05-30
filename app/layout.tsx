@@ -18,7 +18,7 @@ const karla = Karla({
 
 export const metadata: Metadata = {
   title: "Aadhavan",
-  description: "Frontend engineer",
+  description: "Fullstack engineer",
 };
 
 export default function RootLayout({

@@ -6,6 +6,24 @@ const Experience = () => {
             <p className="text-xl font-semibold mb-3">Experience</p>
             <section className="flex flex-col gap-y-2">
                 <div className="border flex gap-x-4 p-2 lg:p-3 rounded-2xl">
+                    <Image
+                        src="/images/spectrocloud.png"
+                        alt="Spectro Cloud"
+                        width={46}
+                        height={46}
+                        className="object-contain rounded-xl"
+                    />
+
+                    <div className="flex items-center justify-between w-full">
+                        <div className="flex flex-col">
+                            <p className="text-[15px] md:text-[16px] xl:text-lg font-medium">Spectro Cloud</p>
+                            <p className="text-xs">Fullstack Engineer</p>
+                        </div>
+                        <p className="text-sm">Feb 2026 - Present</p>
+                    </div>
+                </div>
+
+                <div className="border flex gap-x-4 p-2 lg:p-3 rounded-2xl">
                     <svg width="46" height="46" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_1_10)">
                             <path d="M33 66C51.2254 66 66 51.2254 66 33C66 14.7746 51.2254 0 33 0C14.7746 0 0 14.7746 0 33C0 51.2254 14.7746 66 33 66Z" fill="#5051F9" />
@@ -28,7 +46,7 @@ const Experience = () => {
                             <p className="text-[15px] md:text-[16px] xl:text-lg font-medium">ZEPIC</p>
                             <p className="text-xs">Senior Frontend Engineer</p>
                         </div>
-                        <p className="text-sm">May 2023 - Present</p>
+                        <p className="text-sm">May 2023 - Feb 2026</p>
                     </div>
                 </div>
 

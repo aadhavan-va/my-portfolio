@@ -28,7 +28,7 @@ const Navbar = () => {
                         blogs
                     </Link>
                 </ul> */}
-                <div className="font-semibold text-md sm:text-lg md:text-2xl">Frontend Engineer</div>
+                <div className="font-semibold text-md sm:text-lg md:text-2xl">Fullstack Engineer</div>
             </div>
         </nav>
     )
